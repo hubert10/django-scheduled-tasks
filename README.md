@@ -1,4 +1,4 @@
-# Handling Periodic Tasks in Django with Celery, Redis and Docker
+# Handling Periodic Tasks in Django with Celery, RabbitMq and Docker
 
 Example of how to manage periodic tasks with Django, Celery, and Docker
 

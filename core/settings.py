@@ -128,10 +128,6 @@ STATIC_URL = "/staticfiles/"
 CELERY_RESULT_BACKEND = "django-db"
 
 
-CELERY_BROKER_URL = "redis://redis:6379"
-CELERY_RESULT_BACKEND = "redis://redis:6379"
-
-
 from celery.schedules import crontab
 import core.tasks
 
@@ -158,5 +154,6 @@ ADMINS = [
     ("testuser", "test.user@email.com"),
 ]
 
-
 open_exchangerate_uri = "https://api.exchangeratesapi.io/latest"
+
+BROKER_URL = "amqp://user:password@rabbit:5672//"

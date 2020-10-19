@@ -1,5 +1,4 @@
 from datetime import timedelta, time, datetime
-
 from django.core.mail import mail_admins
 from django.core.management import BaseCommand
 from django.utils import timezone
