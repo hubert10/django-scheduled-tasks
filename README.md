@@ -14,10 +14,10 @@ Spin up the containers:
 $ docker-compose up -d --build
 ```
 
-Make sure the message broker `redis` service is running :
+Make sure the message broker `rabbitmq` service is running :
 
 ```sh
-$ docker-compose logs -f 'redis'
+$ docker-compose logs -f 'rabbitmq'
 ```
 
 Open the `django apps` logs service to see if your application is up running:
