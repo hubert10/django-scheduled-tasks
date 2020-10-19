@@ -156,4 +156,5 @@ ADMINS = [
 
 open_exchangerate_uri = "https://api.exchangeratesapi.io/latest"
 
-BROKER_URL = "amqp://user:password@rabbit:5672//"
+# BROKER_URL = "amqp://user:password@rabbit:5672//"
+CELERY_BROKER_URL = "amqp://user:password@rabbit:5672//"
